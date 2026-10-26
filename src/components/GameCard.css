@@ -1,0 +1,84 @@
+.game-card {
+  background: #1e1e1e;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  border: 1px solid #2f3542;
+}
+
+.game-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.4);
+}
+
+.game-image {
+  width: 100%;
+  height: 140px;
+  object-fit: cover;
+  background-color: #2f3542;
+}
+
+.game-info {
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.game-genre {
+  font-size: 0.75rem;
+  background: #2ed573;
+  color: #121212;
+  padding: 2px 8px;
+  border-radius: 4px;
+  width: fit-content;
+  font-weight: bold;
+  margin-bottom: 8px;
+  text-transform: uppercase;
+}
+
+.game-info h3 {
+  font-size: 1.1rem;
+  margin-bottom: 6px;
+  color: #ffffff;
+}
+
+.game-desc {
+  font-size: 0.85rem;
+  color: #a4b0be;
+  margin-bottom: 15px;
+  flex: 1;
+  line-height: 1.4;
+}
+
+.game-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid #2f3542;
+  padding-top: 10px;
+}
+
+.game-year {
+  font-size: 0.8rem;
+  color: #747d8c;
+}
+
+.btn-delete {
+  background: #ff4757;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.8rem;
+  font-weight: 600;
+  transition: background 0.2s;
+}
+
+.btn-delete:hover {
+  background: #ff6b81;
+}
